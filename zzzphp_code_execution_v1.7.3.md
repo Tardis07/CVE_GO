@@ -3,6 +3,7 @@
     Product Homepage: http://www.zzzcms.com
     Software Link: http://115.29.55.18/zzzphp.zip
     Version: v1.7.3
+    CVE: CVE-2019-17408
 
 # Vulnerability Overview
 Affected code is located at `inc/zzz_template.php:2335`, function `parserIfLabel`.
